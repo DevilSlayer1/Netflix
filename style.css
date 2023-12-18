@@ -2,3 +2,97 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.main{
+    background-image: url('assets/background.jpg.jpg');
+    position: relative;
+    z-index: 0;
+}
+.main .box{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.45;
+    position: absolute;
+    top: 0;
+}
+.box{
+    height:100vh;
+}
+.main .netflix-logo svg{
+    height: 5vh;
+    z-index: 10;
+    position: relative;
+}
+.main .btn{
+    z-index: 10;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .btn{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-bar{
+    padding: 20px 8.5vh;
+}
+.btn .english-btn{
+    width: 123px;
+    height: 32px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    border: rgb(197, 197, 197) 1px solid;
+    margin-right:7px;
+}
+.btn .signin-btn{
+    height: 32px;
+    width: 75.98px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.interior-english-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-text{
+    position: relative;
+    z-index: 10;
+}
+.input-email input{
+    height: 56px;
+    width: 374px;
+    border-radius: 5px;
+    border: 1px green solid;
+    padding: 0px 10px;
+    color-scheme: dark;
+    position: relative;
+    z-index: 100;
+    margin-right: 7px;
+    opacity: 0.8;
+    font-size: 15px;
+    color: white;
+}
+
+.get-started-btn{
+    width: 156.8px;
+    height: 56px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    position: relative;
+    z-index: 10;
+    border: none;
+    font-size: 21px;
+    font-weight: bold;
+}

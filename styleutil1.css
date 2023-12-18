@@ -71,11 +71,29 @@ a:hover{
 .pbot{
     padding-bottom: 25px;
 }
+.pltop{
+    padding-top: 50px;
+}
+.plbot{
+    padding-bottom: 50px;
+}
+.pxltop{
+    padding-top: 100px;
+}
+.pxlbot{
+    padding-bottom: 100px;
+}
 .mxltop{
     margin-top: 100px;
 }
 .mxlbot{
     margin-bottom: 100px;
+}
+.mxstop{
+    margin-top: 12px;
+}
+.mxsbot{
+    margin-bottom: 12px;
 }
 .mltop{
     margin-top: 75px;
@@ -94,6 +112,12 @@ a:hover{
 }
 .msbot{
     margin-bottom: 25px;
+}
+.mxstop{
+    margin-top: 12px;
+}
+.mxsbot{
+    margin-bottom: 12px;
 }
 .fw-normal{
     font-weight: normal;

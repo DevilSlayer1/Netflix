@@ -4,22 +4,22 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: rgb(20, 20, 20);
 }
 .main{
     background-image: url('assets/background.jpg.jpg');
+    background-size: cover;
     position: relative;
     z-index: 0;
+    height: 58vh;
 }
 .main .box{
-    height: 80vh;
+    height: 58vh;
     width: 100%;
     background-color: black;
     opacity: 0.45;
     position: absolute;
     top: 0;
-}
-.box{
-    height:100vh;
 }
 .main .netflix-logo svg{
     height: 5vh;
@@ -73,7 +73,7 @@ body{
     height: 56px;
     width: 374px;
     border-radius: 5px;
-    border: 1px green solid;
+    border: 1px rgb(3, 255, 3) solid;
     padding: 0px 10px;
     color-scheme: dark;
     position: relative;
@@ -95,4 +95,8 @@ body{
     border: none;
     font-size: 21px;
     font-weight: bold;
+}
+.body-content1{
+    background-color: black;
+    margin-top: 10px;
 }

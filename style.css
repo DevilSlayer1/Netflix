@@ -96,7 +96,197 @@ body{
     font-size: 21px;
     font-weight: bold;
 }
-.body-content1{
+/*.body-content1{
     background-color: black;
-    margin-top: 10px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content1-wrapper1{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content1-wrapper2{
+    display: flex;
+    align-items: center;
+
+}
+.frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.frame img{
+    z-index: 10;
+}
+.video-tv{
+    position: relative;
+    top: -389px;
+}
+.body-content2{
+    background-color: black;
+    margin-top: 8px;
+}
+.body-content2 .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}*/
+
+.body-content1 .body-wrapper1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    margin-top: 8px;
+}
+.video-frame1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -387px;
+    right: 2px ;
+}
+.video-1 img{
+    margin: auto;
+    position: relative;
+    z-index: 10;
+}
+.body-wrapper2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items: center;
+    margin-top: 8px;
+}
+/*Overlay css*/
+.overlay{
+    position: relative;
+    top: -126px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.overlay-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: gray 3px solid;
+    border-radius: 15px;
+    width: 60%;
+    height: 10%;
+    padding: 8px;
+    
+}
+.overlay .overlay-wrapper .image-overlay{
+    display: flex;
+    justify-content: left;
+}
+.overlay .overlay-wrapper .image-overlay{
+    height: 8vh;
+}
+.text-overlay{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.animation-overlay{
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    outline-offset: -2px;
+    display: block;
+    left:-12px;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    background: url('assets/download-icon.gif') center center no-repeat;
+} 
+.image-frame2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.video-overlay2{
+    display: flex;
+    justify-content: center;
+    top: -414px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.video-overlay2  video{
+    overflow: hidden;
+    width: 400px;
+}
+.body-wrapper3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    margin-top: 8px;
+}
+.video-2{
+    height: 480px;
+}
+.video-2 img{
+    position: relative;
+    z-index: 10;
+}
+.video-2 .video-frame2{
+    position: relative;
+    top: -435px;
+    right: -108px;
+}
+.video-2 .video-frame2 video{
+width: 66%;
+}
+.body-wrapper4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    margin-top: 8px;
+}
+.body-wrapper5{
+    background-color: black;
+    margin-top: 8px;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 200px;
+    
+}
+.faq .header{
+    text-align: left;
+    color: White;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+.faq1,.faq2,.faq3,.faq4,.faq5,.faq6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 20px;
+    height: 8vh;
+    min-width: 90%;
+    max-width: 100%;
+    background-color: rgb(20, 20, 20);
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: black;
+    margin-top: 8px;
+    display: none;
 }

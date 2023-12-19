@@ -1,0 +1,54 @@
+<div class="body-content1">
+        <div class="content1-wrapper1">
+            <div class="content1-header">
+                <span class="white center pltop font-size-30px">Enjoy on your TV</span>
+                <span class="white mxstop fw-normal center">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
+            </div>
+        <div class="content1-wrapper2">
+            <div class="frame">
+                <img src="assets/tv.png" alt="" srcset="">
+                <div class="video-tv">
+                    <video src="assets/video-tv-in-0819.m4v" autoplay loop></video>
+                </div>
+            </div>
+        </div>
+           
+        </div>
+    </div>
+    <div class="body-content2">
+        <div class="title">
+            <h2 class="white center pltop font-size-30px">Download your shows to watch offline</h2>
+            <h3 class="white center mstop fw-normal">Save your favourites easily and always have something to watch.</h3>
+        </div>
+        <div class="image">
+            <img src="assets/mobile-0819.jpg" alt="">
+        </div>
+        <div class="overlay">
+            <div class="overlay-wrapper">
+                <div class="image-overlay">
+                    <img src="assets/boxshot.png" alt="">
+                    <div class="text-overlay">
+                        <h4 class="white mxstop">Stranger Things</h4>
+                        <h4 class="blue fw-normal ">Downloading...</h4>
+                    </div>
+                </div>
+                <div class="animation-overlay">
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="body-content3">
+        <div class="title3">
+            <h2 class="white font-size-30px center pltop">Watch everywhere</h2>
+            <h3 class="white center mstop fw-normal">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+        </div>
+        <div class="image-frame2">
+            <img src="assets/device-pile-in.png" alt="">
+        </div>
+        <div class="video-overlay2">
+            <video src="assets/video-devices-in.m4v" autoplay loop></video>
+        </div>
+    </div>
+    <div class="body-content4"></div>

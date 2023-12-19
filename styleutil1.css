@@ -86,14 +86,17 @@ a:hover{
 .mxltop{
     margin-top: 100px;
 }
+.mxxltop{
+    margin-top: 150px;
+}
 .mxlbot{
     margin-bottom: 100px;
 }
 .mxstop{
-    margin-top: 12px;
+    margin-top: 10px;
 }
 .mxsbot{
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 .mltop{
     margin-top: 75px;
@@ -156,4 +159,10 @@ textarea{
 
 button:hover{
     cursor: pointer;
+}
+x-bold{
+    font-weight: bolder;
+}
+.pxxl{
+    padding: 0px 300px;
 }

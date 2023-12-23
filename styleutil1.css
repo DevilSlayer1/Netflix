@@ -161,8 +161,11 @@ button:hover{
     cursor: pointer;
 }
 x-bold{
-    font-weight: bolder;
+    font-weight: 900;
 }
 .pxxl{
-    padding: 0px 300px;
+    padding: 0px 350px;
+}
+.mxxl{
+    margin: 0px 300px;
 }

@@ -3,8 +3,11 @@
     padding: 0;
 }
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Netflix Font', sans-serif;                                       
     background-color: rgb(20, 20, 20);
+}
+.main-text h1,.text h1{
+    font-weight: 900;
 }
 .main{
     background-image: url('assets/background.jpg.jpg');
@@ -22,7 +25,7 @@ body{
     top: 0;
 }
 .main .netflix-logo svg{
-    height: 5vh;
+    height: 4vh;
     z-index: 10;
     position: relative;
 }
@@ -41,7 +44,7 @@ body{
 }
 
 .navigation-bar{
-    padding: 20px 8.5vh;
+    padding: 20px 36.5vh;
 }
 .btn .english-btn{
     width: 123px;
@@ -56,7 +59,7 @@ body{
     height: 32px;
     width: 75.98px;
     border-radius: 5px;
-    background-color: red;
+    background-color: rgb(229,9,20);
     border: none;
     color: white;
     font-weight: bold;
@@ -70,8 +73,8 @@ body{
     z-index: 10;
 }
 .input-email input{
-    height: 56px;
-    width: 374px;
+    height: 60px;
+    width: 385px;
     border-radius: 5px;
     border: 1px rgb(3, 255, 3) solid;
     padding: 0px 10px;
@@ -83,61 +86,22 @@ body{
     font-size: 15px;
     color: white;
 }
+.input-email input::placeholder{
+    color: white;
+}
 
 .get-started-btn{
     width: 156.8px;
-    height: 56px;
+    height: 61px;
     border-radius: 5px;
     color: white;
-    background-color: red;
+    background-color: rgb(229,9,20);
     position: relative;
     z-index: 10;
     border: none;
     font-size: 21px;
     font-weight: bold;
 }
-/*.body-content1{
-    background-color: black;
-    margin-top: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.content1-wrapper1{ 
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.content1-wrapper2{
-    display: flex;
-    align-items: center;
-
-}
-.frame{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.frame img{
-    z-index: 10;
-}
-.video-tv{
-    position: relative;
-    top: -389px;
-}
-.body-content2{
-    background-color: black;
-    margin-top: 8px;
-}
-.body-content2 .image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-}*/
-
 .body-content1 .body-wrapper1{
     display: flex;
     justify-content: space-evenly;
@@ -152,6 +116,9 @@ body{
     position: relative;
     top: -387px;
     right: 2px ;
+}
+.video-1{
+    height:570px;
 }
 .video-1 img{
     margin: auto;
@@ -193,6 +160,7 @@ body{
 }
 .text-overlay{
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-left: 15px;
@@ -204,7 +172,6 @@ body{
     outline-offset: -2px;
     display: block;
     left:-12px;
-    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
     background: url('assets/download-icon.gif') center center no-repeat;
 } 
 .image-frame2{
@@ -263,8 +230,7 @@ width: 66%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0px 200px;
-    
+    align-items: center;
 }
 .faq .header{
     text-align: left;
@@ -279,12 +245,42 @@ width: 66%;
     align-items: center;
     padding:0px 20px;
     height: 8vh;
-    min-width: 90%;
+    min-width: 60%;
     max-width: 100%;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(45,45,45);
     margin-bottom: 10px;
+    opacity: 1;
+    transition: background-color 0.25s ease-in-out;
+    
 }
-
+.faq1:hover{
+    cursor: pointer;
+    background-color: rgba(75, 75, 75, 0.8);
+}
+.faq2:hover{
+    cursor: pointer;
+    background-color: rgba(75, 75, 75, 0.8);
+    
+}
+.faq3:hover{
+    cursor: pointer;
+    background-color: rgba(75, 75, 75, 0.8);
+    
+}
+.faq4:hover{
+    cursor: pointer;
+    background-color: rgba(75, 75, 75, 0.8);
+    
+}
+.faq5:hover{
+    cursor: pointer;
+    background-color: rgba(75, 75, 75, 0.8);
+    
+}
+.faq6:hover{
+    cursor: pointer;
+    background-color: rgba(75, 75, 75, 0.8);
+}
 footer{
     background-color: black;
     margin-top: 8px;

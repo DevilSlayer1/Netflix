@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+    /* Your CSS styles for tablets */
+    .body-content1 .body-wrapper1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        margin-top: 8px;
+    }
+    .body-wrapper2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        margin-top: 8px;
+    }
+    .body-wrapper3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        margin-top: 8px;
+    }
+    .body-wrapper4{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        margin-top: 8px;
+    }
+    .body-wrapper1,.body-wrapper2,.body-wrapper3,.body-wrapper4{
+        padding: 60px 50px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .body-wrapper1 h1,.body-wrapper2 h1,.body-wrapper3 h1,.body-wrapper4 h1{
+        font-weight: 600;
+        font-size: 35px;
+    }
+    .faq .text h1{
+        font-weight: 600;
+        font-size: 35px;
+    }
+    .body-wrapper1 h3,.body-wrapper2 h3,.body-wrapper3 h3,.body-wrapper4 h3{
+        font-weight: normal;
+        font-size: 20px;
+    }
+    .overlay .overlay-wrapper .image-overlay{
+        height: 13vh;
+    }
+  }
+  

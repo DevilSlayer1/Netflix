@@ -55,7 +55,11 @@
         font-size: 20px;
     }
     .overlay .overlay-wrapper .image-overlay{
-        height: 13vh;
+        height: 7vh;
+    }
+    .body-content5 h1{
+        font-weight: 600;
+        font-size: 35px;
     }
   }
   

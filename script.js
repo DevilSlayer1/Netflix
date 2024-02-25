@@ -41,20 +41,33 @@ document.addEventListener('DOMContentLoaded',()=>{
         faq6Content.classList.toggle('hide');
         svg6.classList.toggle('rotate');
     });
-    const emailInput = document.querySelector('.email-input');
-    const placeholder = document.querySelector('.placeholder');
+    const emailInput1 = document.getElementsByClassName('email-input')[0];
+    const placeholder1 = document.getElementsByClassName('placeholder')[0];
+    const emailInput2 = document.getElementsByClassName('email-input')[1];
+    const placeholder2 = document.getElementsByClassName('placeholder')[1];
 
-    emailInput.addEventListener('focus', () => {
-    placeholder.style.top = '13px';
-    placeholder.style.fontSize = '12px';
-    placeholder.placeholder="";
+    emailInput1.addEventListener('focus', () => {
+        placeholder1.style.top = '13px';
+        placeholder1.style.fontSize = '12px';
+        placeholder1.placeholder="";
     });
 
-    emailInput.addEventListener('blur', () => {
-    if (!emailInput.value) {
-        placeholder.style.top = '50%';
-        placeholder.style.fontSize = '';
+    emailInput1.addEventListener('blur', () => {
+    if (!emailInput1.value) {
+        placeholder1.style.top = '50%';
+        placeholder1.style.fontSize = '';
     }
     });
-
+    emailInput2.addEventListener('focus', () => {
+        placeholder2.style.top = '13px';
+        placeholder2.style.fontSize = '12px';
+        placeholder2.placeholder="";
+        });
+    
+    emailInput2.addEventListener('blur', () => {
+    if (!emailInput2.value) {
+        placeholder2.style.top = '50%';
+        placeholder2.style.fontSize = '';
+    }
+});
 });

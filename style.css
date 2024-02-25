@@ -137,6 +137,46 @@ body{
 .get-started-btn:hover{
     opacity: 0.85;
 }
+.input-email {
+    position: relative;
+  }
+  
+  .email-input {
+    padding: 10px;
+  }
+  
+  .placeholder {
+    position: absolute;
+    color: white;
+    z-index: 10;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: top 0.3s, font-size 0.3s;
+  }
+  
+  .email-input:focus + .placeholder {
+    top: -10px;
+    font-size: 12px;
+  }
+.get-started-btn{
+    width: 156.8px;
+    height: 61px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(229,9,20);
+    position: relative;
+    z-index: 10;
+    border: none;
+    font-size: 21px;
+    font-weight: bold;
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+.get-started-btn:hover{
+    opacity: 0.85;
+}
 .body-content1 .body-wrapper1{
     display: flex;
     justify-content: space-evenly;

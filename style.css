@@ -16,6 +16,9 @@ body{
     height: 40px;
     transition: all 0.3s ease-in-out;
 }
+.lang-svg{
+    z-index: 1000000;
+}
 .logo{
     position: relative;
     z-index: 10;
@@ -39,7 +42,7 @@ body{
     height: 620px;
     width: 100%;
     background-color: black;
-    opacity: 0.45;
+    opacity: 0.73;
     position: absolute;
     top: 0;
 }
@@ -48,12 +51,14 @@ body{
     align-items: center;
     margin-top: 0.25rem;
     gap: 5px;
+    
 }
 .error svg{
     color: red;
 }
 #erroremail,#erroremail2{
     color: red;
+    z-index: 10000;
 }
 .error-mark{
     display: none;
@@ -85,6 +90,8 @@ body{
 }
 
 .english-btn{
+    display: flex;
+    justify-content: center;
     width: 123px;
     height: 32px;
     border-radius: 5px;
@@ -93,7 +100,11 @@ body{
     border: rgb(197, 197, 197) 1px solid;
     margin-right:7px;
     opacity: 1;
+    z-index: 10;
     transition: all 0.3s ease-in-out;
+}
+.english-btn:hover{
+    cursor: pointer;
 }
 .btn .signin-btn{
     height: 32px;
@@ -163,7 +174,7 @@ body{
   .placeholder {
     position: absolute;
     color: white;
-    z-index: 10;
+    z-index: 100000;
     top: 50%;
     left: 10px;
     transform: translateY(-50%);
@@ -174,6 +185,9 @@ body{
   .email-input:focus + .placeholder {
     top: -10px;
     font-size: 12px;
+  }
+  #input1,#input2{
+    z-index: 10000;
   }
 .get-started-btn{
     width: 156.8px;
@@ -303,11 +317,11 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -435px;
+    top: -445px;
     right: 2px;
 }
 .video-2 .video-frame2 video{
-width: 66%;
+width: 62%;
 }
 .body-wrapper4{
     display: flex;

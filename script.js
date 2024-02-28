@@ -107,24 +107,37 @@ document.addEventListener('DOMContentLoaded', () => {
         let email = Email.toLowerCase();
         let k = isValidEmail(email);
         if (email == '') {
+            emailInput1.style.borderColor = "red"; // Change border color
+            emailInput1.style.borderWidth = "2px"; // Change border width
+            emailInput1.style.borderStyle = "solid";
             erroremail.innerHTML = "";
             erroremail.innerHTML = "Email is required."; 
         }
         else if (!isNaN(Number(email))) {
+            emailInput1.style.borderColor = "red"; // Change border color
+            emailInput1.style.borderWidth = "2px"; // Change border width
+            emailInput1.style.borderStyle = "solid";
             erroremail.innerHTML = "";
             erroremail.innerHTML = "Email cannot be a number!"; 
         }
         else if (email.length > 320) {
+            emailInput1.style.borderColor = "red"; // Change border color
+            emailInput1.style.borderWidth = "2px"; // Change border width
+            emailInput1.style.borderStyle = "solid";
             erroremail.innerHTML = "";
             erroremail.innerHTML = "Email is too long!"; 
         }
         else if (k == false) {
+            emailInput1.style.borderColor = "red"; // Change border color
+            emailInput1.style.borderWidth = "2px"; // Change border width
+            emailInput1.style.borderStyle = "solid";
             erroremail.innerHTML = "";
             erroremail.innerHTML = "Please enter a valid email address.";          
         }
         else {
-            emailInput1.style.borderColor = "green";
-            emailInput1.style.borderWidth='2px'
+            emailInput1.style.borderColor = "green"; // Change border color
+            emailInput1.style.borderWidth = "2px"; // Change border width
+            emailInput1.style.borderStyle = "solid"; // Change border style
             erroremail.innerHTML = "";
             errorMark.style.display="none"   
         }

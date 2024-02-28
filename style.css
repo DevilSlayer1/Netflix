@@ -43,6 +43,21 @@ body{
     position: absolute;
     top: 0;
 }
+.error{
+    display: flex;
+    align-items: center;
+    margin-top: 0.25rem;
+    gap: 5px;
+}
+.error svg{
+    color: red;
+}
+#erroremail,#erroremail2{
+    color: red;
+}
+.error-mark{
+    display: none;
+}
 /*.main .netflix-logo svg{
     height: 40px;
     z-index: 10;

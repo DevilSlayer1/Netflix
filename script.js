@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
             erroremail.innerHTML = "Please enter a valid email address.";          
         }
         else {
-            emailInput1.style.borderColor = "green"; // Change border color
+            emailInput1.style.borderColor = "#1eed1e"; // Change border color
             emailInput1.style.borderWidth = "2px"; // Change border width
             emailInput1.style.borderStyle = "solid"; // Change border style
             erroremail.innerHTML = "";
